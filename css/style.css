@@ -1,0 +1,345 @@
+/* ===COMMON CSS PART START */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: 0px auto;
+    position: relative;
+}
+ul,li{
+    list-style: none;
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    display: flex;
+}
+
+/* ==COMMON CSS PART END */
+
+/* == NAVBAR PART START ==*/
+#navbar{
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    padding-top: 28px;
+}
+#navbar .container-wrapper{
+    display: flex;
+    /* position: absolute; */
+}
+#navbar .logo{
+    width: 30%;
+    
+
+}
+#navbar .nav-items{
+    width: 70%;
+}
+#navbar .nav-items ul{
+    display: flex;
+    justify-content:flex-end;
+}
+#navbar .nav-items ul li a{
+    padding-left: 60px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+/* ==NAVBAR PART END */
+
+/* ==BANNER PART START */
+#banner {
+    background: url('../images/banar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 462px 0px;
+}
+#banner .banner-wrapper p{
+    font-family: "Open Sans", sans-serif;
+    font-size:18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing:7px ;
+    color: #FFC178;
+}
+#banner .banner-wrapper h1{
+    font-family: "Open Sans", sans-serif;
+    font-size:96px;
+    font-weight: 700;
+    color: white;
+
+}
+#banner .banner-wrapper h1 span{
+    font-family: "Open Sans", sans-serif;
+    font-weight:500;
+    font-size: 88px;
+    color:white;
+    display: block;
+
+
+}
+/*==BANNER PART END  */
+
+/* ==ABOUT PART START */
+#about{
+    padding:319px 0px;
+    background-color: black;
+}
+#about .about-wrapper{
+   display: flex;
+
+}
+#about .about-wrapper .girl img{
+    width: 582px;
+    height: 713px;
+    
+}
+#about .about-wrapper .text{
+    padding-left: 150px;
+}
+#about .about-wrapper .text p{
+    font-family: "Open Sans", sans-serif;
+    font-size:18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing:6px ;
+    color: #FFC178;
+}
+#about .about-wrapper .text h2{
+    font-family: "Open Sans", sans-serif;
+    font-size:64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:white;
+    width:496px ;
+}
+#about .about-wrapper .text h6{
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:white;
+    line-height: 32px;
+    width: 587px;
+}#about .about-wrapper .text h5{
+    font-family: "Open Sans", sans-serif;
+    font-size:18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#FBD784;
+    padding-top: 80px;
+}
+/* ==ABOUT PART END */
+
+/* == OTHER SECTION PART START == */
+#other{
+    background-color: black;
+}
+#other .other-wrapper{
+    background: url('../images/hills.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 559px;
+    padding-bottom: 32px;
+}
+#other .other-wrapper .one{
+    text-align: center;
+}
+#other .other-wrapper .one h4{
+    font-family: "Open Sans", sans-serif;
+    font-size:18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing:6px ;
+    color: #FFC178;
+    
+}
+#other .other-wrapper .one h2{
+    font-family: "Open Sans", sans-serif;
+    font-size:64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:white;
+    width:932px ;
+    margin: 0 auto;
+}
+#other .other-wrapper .one p{
+    font-family: "Open Sans", sans-serif;
+    font-size:15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height:32px ;
+    color:white;
+    width: 893px;
+    margin: 0 auto;
+}
+#other .other-wrapper .one h6{
+    font-family: "Open Sans", sans-serif;
+    font-size:18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFC178;
+    padding-top: 20px;
+}
+/* == OTHER SECTION PART END == */
+/* ===CULTURE PART START */
+#culture{
+    background-color: black;
+    padding-top: 285px;
+    padding-bottom: 295px;
+
+}
+#culture .culture-wrapper{
+    display: flex;
+}
+#culture .culture-wrapper .text{
+    padding-top: 153px; 
+}
+#culture .culture-wrapper .text h3{
+    font-family: "Open Sans", sans-serif;
+    font-size:18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing:6px ;
+    color: #FFC178;
+}
+#culture .culture-wrapper .text h2{
+    font-family: "Open Sans", sans-serif;
+    font-size:64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:white;
+    width:496px ;
+    width: 663;
+}
+#culture .culture-wrapper .text h4{
+    font-family: "Open Sans", sans-serif;
+    font-size:18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height:32px ;
+    color:white;
+    width: 655px;
+    margin: 0 auto;
+}
+#culture .culture-wrapper .text h5{
+    font-family: "Open Sans", sans-serif;
+    font-size:18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFC178;
+    padding-top: 20px;
+}
+
+}
+#culture .culture-wrapper .image img{
+    width: 624px;
+    height: 699px;
+}
+
+/* ==CULTURE PART END */
+
+/* <!-- ==FOOTER PART START--> */
+#footer{
+    background-color: rgba(0, 0, 0, 0.962);
+    border-bottom: 20px solid white;
+   
+}
+#footer .footer-wrapper{
+    border-bottom: 20px solid white;
+}
+#footer .footer-wrapper .footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .footer-wrapper .footer-top .footer-top-right{
+    display: flex;
+    color: white;
+    align-items: center;
+   
+}
+#footer .footer-wrapper .footer-top .footer-top-right p{
+    margin-right: 18px;
+}
+#footer .footer-wrapper .footer-top .footer-top-right a{
+    padding: 18px 67px;
+    background-color: #FFC178;
+    color: black;
+    border-radius: 10px;
+    margin-right: 18px;
+}
+#footer .footer-mid { 
+      display: flex; 
+}
+#footer .footer-mid .footer-mid-one h3{
+    font-family: "Open Sans", sans-serif;
+    font-size:36px;
+    font-weight: 700;
+    line-height:49px ;
+    color:white;
+    width: 405px;
+    padding-top: 81px;
+    padding-bottom: 36px;
+}
+#footer .footer-mid .footer-mid-one p{
+    font-family: "Open Sans", sans-serif;
+    font-size:15px;
+    font-weight: 400;
+    color:white;
+    letter-spacing: -0.2px;
+    padding-bottom: 48px;
+}
+#footer .footer-mid .footer-mid-main  {
+color: white;
+display: flex;
+padding-left: 275px;
+padding-top: 72px;
+}
+#footer .footer-mid .footer-mid-main .footer-mid-two h4{
+    font-family: "Open Sans", sans-serif;
+    font-size:20px;
+    font-weight: 700;
+    color:white;
+    padding-left: 20px;
+}
+#footer .footer-mid .footer-mid-main .footer-mid-two p{
+    font-family: "Open Sans", sans-serif;
+    font-size:20px;
+    font-weight: 700;
+    color:white;
+}
+#footer .footer-mid .footer-mid-main .footer-mid-three h4, p{
+    font-family: "Open Sans", sans-serif;
+    font-size:20px;
+    font-weight: 700;
+    color:white;
+    padding-left: 20px;
+}
+#footer .footer-mid .footer-mid-main .footer-mid-four h4, p{
+    font-family: "Open Sans", sans-serif;
+    font-size:20px;
+    font-weight: 700;
+    color:white;
+    padding-left: 20px;
+}
+#footer .footer-buttom {
+    font-family: "Open Sans", sans-serif;
+    font-size:20px;
+    font-weight: 600;
+    color:white;
+    line-height: 32px;
+    padding-top: 50px;
+    text-align: center;
+}
+#navbar .nav-items ul li a:hover{
+    color: black;
+}
+/* <!-- ==FOOTER PART END--> */
